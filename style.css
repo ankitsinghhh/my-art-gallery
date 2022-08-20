@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+
+.hero .carousel {
+     width: 300px;
+     margin: 100px auto 0;
+     overflow: visible;
+}
+
+.carousel img {
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+}
